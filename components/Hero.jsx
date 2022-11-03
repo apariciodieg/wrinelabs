@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center h-screen mx-auto mt-20 w-[80%]">
+    <div className="flex flex-col items-center h-screen mx-auto  w-[80%] mt-52">
       <div className="text-6xl font-semibold tracking-tighter md:text-7xl lg:text-8xl ">
-        <h1 className="text-center text-slate-200 ">
+        <h1 className="text-center text-slate-800">
           All your{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-500 backgroundAnimate">
             Web solutions
@@ -22,7 +22,7 @@ const Hero = () => {
 
       
       <div className="flex flex-col items-center mt-10 space-y-4 ">
-        <button className="p-2 px-4 rounded-lg text-slate-300 hover:bg-transparent w-96">
+        <button className="p-2 px-4 rounded-lg text-slate-800 hover:bg-transparent w-96">
           Get started
         </button>
         <button className="p-2 px-4 bg-blue-500 shadow-lg rounded-xl hover:shadow-blue-500/50 w-96 ">
