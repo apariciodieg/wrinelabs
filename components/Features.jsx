@@ -1,4 +1,4 @@
-import { BoltIcon, ChatBubbleBottomCenterTextIcon, GlobeAltIcon, ScaleIcon } from '@heroicons/react/24/outline'
+import { BoltIcon, ChatBubbleBottomCenterTextIcon, GlobeAltIcon, ScaleIcon, ServerStackIcon, IdentificationIcon, PaintBrushIcon, CommandLineIcon, MagnifyingGlassIcon, RocketLaunchIcon   } from '@heroicons/react/24/outline'
 import { motion, useViewportScroll, useTransform } from "framer-motion";
 
 
@@ -14,31 +14,31 @@ const features = [
       name: 'Web Design',
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-      icon: ScaleIcon,
+      icon: PaintBrushIcon,
     },
     {
       name: 'Web development',
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-      icon: BoltIcon,
+      icon: CommandLineIcon,
     },
     {
       name: 'SEO',
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-      icon: ChatBubbleBottomCenterTextIcon,
+      icon: MagnifyingGlassIcon,
     },
     {
       name: 'Deployment',
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-      icon: ChatBubbleBottomCenterTextIcon,
+      icon: RocketLaunchIcon,
     },
     {
       name: 'Hosting',
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-      icon: ChatBubbleBottomCenterTextIcon,
+      icon: ServerStackIcon,
     },
   
 
