@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Nav = () => {
   return (
-    <header className="fixed top-0 w-full backdrop-filter backdrop-blur-lg">
+    <header className="fixed top-0 z-40 w-full backdrop-filter backdrop-blur-lg">
     <div className="flex items-center justify-between mx-auto w-[90%] h-20  ">
       <h1 className="text-xl font-semibold tracking-tighter sm:text-2xl text-slate-800">
         Wrine Labs
