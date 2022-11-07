@@ -60,7 +60,7 @@ const Features = () => {
 
 <div className="flex flex-col items-center mx-auto w-[80%]">
   
-      <div className="text-6xl font-semibold tracking-tighter md:text-7xl lg:text-8xl ">
+      <div className="text-5xl font-semibold tracking-tighter md:text-7xl">
         <h1 className="text-center text-slate-700 ">
             How{" "} 
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-500 backgroundAnimate">

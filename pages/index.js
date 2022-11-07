@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Pricing from '../components/Pricing'
+import PricingAlt from '../components/PricingAlt'
 
 
 //components
@@ -19,7 +19,7 @@ export default function Home() {
       <main >
         <Hero/>
         <Features/>
-        <Pricing/>
+        <PricingAlt/>
       </main>
 
     

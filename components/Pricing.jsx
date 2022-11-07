@@ -1,6 +1,10 @@
+import { CheckCircleIcon } from '@heroicons/react/24/outline'
+
+
+
 const Pricing = () => {
     return (
-            <div className="flex flex-col items-center h-screen mx-auto w-[90%]  ">
+            <div className="flex flex-col items-center h-screen mx-auto w-[90%] space-y-8  ">
                 
                 <h1 className="text-6xl font-semibold tracking-tighter text-center md:text-7xl lg:text-8xl text-slate-700">
             Plans and{" "}
@@ -8,21 +12,45 @@ const Pricing = () => {
             Pricing
           </span>
         </h1>
+
+        
+
         
         <div className="z-0 flex justify-center w-full h-screen p-8 m-auto gap-x-8 " >
-      <div className="w-[300px] h-[300px] bg-indigo-400/80 rounded-2xl flex flex-col items-center p-8 space-y-28 shadow-2xl drop-shadow-xl nmConcave cursor-pointer">
-            <h1 className="text-2xl font-bold tracking-tighter text-slate-700">Landing</h1>
-            <h1 className="text-6xl font-bold tracking-tighter text-indigo-400">$1K</h1>
+       
+      <div className="w-[300px] h-[400px] z-10 bg-indigo-400/80 rounded-2xl flex flex-col items-center p-8 space-y-28 shadow-2xl drop-shadow-xl nmConcave cursor-pointer">
+
+            <div className="flex flex-col space-y-6 ">
+              <span className="flex items-center justify-between mb-8">
+            <h1 className="text-3xl font-semibold tracking-tighter text-slate-600">Landing</h1>
+            <h1 className="text-2xl font-semibold tracking-tighter text-slate-600">$1k</h1>
+            </span>
+              <div className="flex items-center gap-x-4">
+            <CheckCircleIcon className="w-6 text-indigo-400"/>
+            <h2 className="text-lg font-medium text-slate-700">Single Landing page</h2>
+            </div>
+              <div className="flex items-center gap-x-4">
+            <CheckCircleIcon className="w-6 text-indigo-400"/>
+          <h2 className="text-lg font-medium text-slate-700">Custom domain</h2>
+            </div>
+              <div className="flex items-center gap-x-4">
+            <CheckCircleIcon className="w-6 text-indigo-400"/>
+            <h2 className="text-lg font-medium text-slate-700">Hosting</h2>
+            </div>
+              <div className="flex items-center gap-x-4">
+            <CheckCircleIcon className="w-6 text-indigo-400"/>
+            <h2 className="text-lg font-medium text-slate-700">SSL Certificate</h2>
+            </div>
+            </div>
+        </div>
+     
+        </div>
+
+       
         </div>
        
-        <div className="w-[500px] h-[500px] bg-indigo-500/80 rounded-2xl flex flex-col items-center p-8 shadow-2xl drop-shadow-xl nmConcave space-y-40 cursor-pointer">
-            <h1 className="text-4xl font-bold tracking-tighter text-indigo-400">Business</h1>
-            <h1 className="text-6xl font-bold tracking-tighter text-slate-700">$2K</h1>
-        </div>
        
             
-    </div> 
-    </div>
     );
 }
  

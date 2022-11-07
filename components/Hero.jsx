@@ -3,7 +3,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div className="flex flex-col items-center h-screen mx-auto  w-[80%] mt-32 sm:mt-44">
-      <div className="text-6xl font-semibold tracking-tighter md:text-7xl lg:text-8xl ">
+      <div className="text-5xl font-semibold tracking-tighter md:text-7xl ">
         <h1 className="text-center text-slate-700">
           All your{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-500 backgroundAnimate">
