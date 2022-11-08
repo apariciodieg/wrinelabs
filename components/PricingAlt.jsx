@@ -21,22 +21,38 @@ const PricingAlt = () => {
       <div className="flex items-center border-b border-gray-300 mb-7 pb-7">
         <img src="https://res.cloudinary.com/williamsondesign/abstract-1.jpg"  alt="" className="w-20 h-20 rounded-3xl" />
         <div className="ml-5">
-          <span className="block text-2xl font-semibold">Basic</span>
-          <span><span className="text-xl font-medium text-gray-500 align-top">$&thinsp;</span><span className="text-3xl font-bold">10 </span></span><span className="font-medium text-gray-500">/ user</span>
+          <span className="block text-2xl font-semibold">Landing</span>
+          <span><span className="text-xl font-medium text-gray-500 align-top">$&thinsp;</span><span className="text-3xl font-bold">800 </span></span><span className="font-medium text-gray-500">/ user</span>
         </div>
       </div>
       <ul className="font-medium text-gray-500 mb-7">
         <li className="flex mb-2 text-lg">
           <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-          <span className="ml-3">Get started with <span className="text-black">messaging</span></span>
+          <span className="ml-3"><span className="text-black">Fully responsive landing Page</span></span>
         </li>
         <li className="flex mb-2 text-lg">
           <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-          <span className="ml-3">Flexible <span className="text-black">team meetings</span></span>
+          <span className="ml-3"><span className="text-black">Custom Domain</span></span>
         </li>
-        <li className="flex text-lg">
+        <li className="flex mb-2 text-lg">
           <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-          <span className="ml-3"><span className="text-black">5 TB</span> cloud storage</span>
+          <span className="ml-3"><span className="text-black">Hosting</span></span>
+        </li>
+        <li className="flex mb-2 text-lg">
+          <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
+          <span className="ml-3"><span className="text-black">SSL Certificate</span></span>
+        </li>
+        <li className="flex mb-2 text-lg">
+          <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
+          <span className="ml-3"><span className="text-black">SEO features</span></span>
+        </li>
+        <li className="flex mb-2 text-lg">
+          <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
+          <span className="ml-3"><span className="text-black">Unlimited bandwidth</span></span>
+        </li>
+        <li className="flex mb-2 text-lg">
+          <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
+          <span className="ml-3"><span className="text-black">Technical Support</span></span>
         </li>
       </ul>
       {/* 
@@ -51,22 +67,33 @@ const PricingAlt = () => {
       <div className="flex items-center pb-8 mb-8 border-b border-gray-600">
         <img src="https://res.cloudinary.com/williamsondesign/abstract-2.jpg"  alt="" className="w-20 h-20 rounded-3xl" />
         <div className="ml-5">
-          <span className="block text-3xl font-semibold text-white">Startup</span>
-          <span><span className="text-xl font-medium align-top">$&thinsp;</span><span className="text-3xl font-bold text-white">24 </span></span><span className="font-medium">/ user</span>
+          <span className="block text-3xl font-semibold text-white">Business</span>
+          <span><span className="text-xl font-medium align-top">$&thinsp;</span><span className="text-3xl font-bold text-white">12000 </span></span><span className="font-medium">/ user</span>
         </div>
       </div>
       <ul className="mb-10 text-xl font-medium">
         <li className="flex mb-6">
           <img src="https://res.cloudinary.com/williamsondesign/check-white.svg" />
-          <span className="ml-3">All features in <span className="text-white">Basic</span></span>
+          <span className="ml-3">All features in <span className="text-white">Landing</span></span>
         </li>
         <li className="flex mb-6">
           <img src="https://res.cloudinary.com/williamsondesign/check-white.svg" />
-          <span className="ml-3">Flexible <span className="text-white">call scheduling</span></span>
+          <span className="ml-3"><span className="text-white">Multiple Page fully responsive website</span></span>
         </li>
-        <li className="flex">
+       
+        <li className="flex mb-6">
           <img src="https://res.cloudinary.com/williamsondesign/check-white.svg" />
-          <span className="ml-3"><span className="text-white">15 TB</span> cloud storage</span>
+          <span className="ml-3"><span className="text-white">Website analytics </span></span>
+        </li>
+        <li className="flex mb-6">
+          <img src="https://res.cloudinary.com/williamsondesign/check-white.svg" />
+          <span className="ml-3"><span className="text-white">Promotional Pop-ups and Banners
+</span></span>
+        </li>
+        <li className="flex mb-6">
+          <img src="https://res.cloudinary.com/williamsondesign/check-white.svg" />
+          <span className="ml-3"><span className="text-white">Video storage
+</span></span>
         </li>
       </ul>
      {/* 
@@ -81,23 +108,41 @@ const PricingAlt = () => {
       <div className="flex items-center border-b border-gray-300 mb-7 pb-7">
         <img src="https://res.cloudinary.com/williamsondesign/abstract-3.jpg"  alt="" className="w-20 h-20 rounded-3xl" />
         <div className="ml-5">
-          <span className="block text-2xl font-semibold">Enterprise</span>
-          <span><span className="text-xl font-medium text-gray-500 align-top">$&thinsp;</span><span className="text-3xl font-bold">35 </span></span><span className="font-medium text-gray-500">/ user</span>
+          <span className="block text-2xl font-semibold">E-Commerce</span>
+          <span><span className="text-xl font-medium text-gray-500 align-top">$&thinsp;</span><span className="text-3xl font-bold">3000 </span></span><span className="font-medium text-gray-500">/ user</span>
         </div>
       </div>
       <ul className="font-medium text-gray-500 mb-7">
         <li className="flex mb-2 text-lg">
           <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-          <span className="ml-3">All features in <span className="text-black">Startup</span></span>
+          <span className="ml-3">All features in <span className="text-black">Business</span></span>
         </li>
         <li className="flex mb-2 text-lg">
           <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-          <span className="ml-3">Growth <span className="text-black">oriented</span></span>
+          <span className="ml-3"><span className="text-black">E-Commerce Analytics</span></span>
         </li>
-        <li className="flex text-lg">
+        <li className="flex mb-2 text-lg">
           <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-          <span className="ml-3"><span className="text-black">Unlimited</span> cloud storage</span>
+          <span className="ml-3"><span className="text-black">Fully integrated E-Commerce</span></span>
         </li>
+        <li className="flex mb-2 text-lg">
+          <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
+          <span className="ml-3"><span className="text-black">0% Transaction Fees</span></span>
+        </li>
+        <li className="flex mb-2 text-lg">
+          <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
+          <span className="ml-3"><span className="text-black">Sell unlimited products</span></span>
+        </li>
+
+        <li className="flex mb-2 text-lg">
+          <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
+          <span className="ml-3"><span className="text-black">Product Reviews</span></span>
+        </li>
+        <li className="flex mb-2 text-lg">
+          <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
+          <span className="ml-3"><span className="text-black">Check out on your domain</span></span>
+        </li>
+      
       </ul>
       {/* 
       <a href="#/" className="flex items-center justify-center px-4 py-5 text-xl text-center text-white bg-indigo-600 rounded-xl">
