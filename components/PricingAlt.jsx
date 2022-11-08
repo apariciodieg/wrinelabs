@@ -22,7 +22,7 @@ const PricingAlt = () => {
         <img src="https://res.cloudinary.com/williamsondesign/abstract-1.jpg"  alt="" className="w-20 h-20 rounded-3xl" />
         <div className="ml-5">
           <span className="block text-2xl font-semibold">Landing</span>
-          <span><span className="text-xl font-medium text-gray-500 align-top">$&thinsp;</span><span className="text-3xl font-bold">800 </span></span><span className="font-medium text-gray-500">/ user</span>
+          <span><span className="text-xl font-medium text-gray-500 align-top">$&thinsp;</span><span className="text-3xl font-bold">800 </span></span><span className="font-medium text-gray-500"></span>
         </div>
       </div>
       <ul className="font-medium text-gray-500 mb-7">
@@ -63,12 +63,12 @@ const PricingAlt = () => {
       */}
     </div>
     
-    <div className="flex-1 order-1 w-full p-8 text-gray-400 bg-gray-900 shadow-xl rounded-3xl sm:w-96 lg:w-full lg:order-2 lg:mt-0">
+    <div className="flex-1 order-2 w-full p-8 text-gray-400 bg-gray-900 shadow-xl rounded-3xl sm:w-96 lg:w-full lg:order-2 lg:mt-0">
       <div className="flex items-center pb-8 mb-8 border-b border-gray-600">
         <img src="https://res.cloudinary.com/williamsondesign/abstract-2.jpg"  alt="" className="w-20 h-20 rounded-3xl" />
         <div className="ml-5">
           <span className="block text-3xl font-semibold text-white">Business</span>
-          <span><span className="text-xl font-medium align-top">$&thinsp;</span><span className="text-3xl font-bold text-white">12000 </span></span><span className="font-medium">/ user</span>
+          <span><span className="text-xl font-medium align-top">$&thinsp;</span><span className="text-3xl font-bold text-white">1200 </span></span><span className="font-medium"></span>
         </div>
       </div>
       <ul className="mb-10 text-xl font-medium">
@@ -109,7 +109,7 @@ const PricingAlt = () => {
         <img src="https://res.cloudinary.com/williamsondesign/abstract-3.jpg"  alt="" className="w-20 h-20 rounded-3xl" />
         <div className="ml-5">
           <span className="block text-2xl font-semibold">E-Commerce</span>
-          <span><span className="text-xl font-medium text-gray-500 align-top">$&thinsp;</span><span className="text-3xl font-bold">3000 </span></span><span className="font-medium text-gray-500">/ user</span>
+          <span><span className="text-xl font-medium text-gray-500 align-top">$&thinsp;</span><span className="text-3xl font-bold">3000 </span></span><span className="font-medium text-gray-500"></span>
         </div>
       </div>
       <ul className="font-medium text-gray-500 mb-7">
